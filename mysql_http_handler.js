@@ -9,7 +9,7 @@ const mysqlData =
     host: 'localhost',
     port: 3306,
     user: 'crm',
-    password: 'Ssv2sBeAZnSm1mPH',
+    password: '********',
     database: 'crm2',
     multipleStatements: true
 };
