@@ -20,7 +20,7 @@ const _headers_ =
 {
     'Content-Type': 'application/json; charset=utf-8',
     'Access-Control-Allow-Origin': '*',
-    'Access-Control-Allow-Methods':	'GET, POST',
+    'Access-Control-Allow-Methods': 'GET, POST',
     'X-Zoosman-Response-Handler': 'None'
 };
 
@@ -74,7 +74,7 @@ const httpItem = http.createServer((request, response) =>
     
             /**
              * 
-             * @param {*} results - an array, contains a response from SQL request thet is got by the caller routine
+             * @param {*} results - an array, contains a response from SQL request that is got by the caller routine
              */
             let ReceivedData_Handler = function(results) {
                 let $this = results[0];
