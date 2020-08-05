@@ -2,8 +2,12 @@
 A simple handler for data json response from MySQL via HTTP GET request
 
 
-This is a simple example of node.js HTTP handler. Sending a request like this:
-http://localhost:8082?sqlRequest=CALL SELECT_customer_type(0)
+This is a simple example of node.js HTTP handler.
+
+Sending a request like this:
+
+http://localhost:8081?sqlRequest=CALL%20SELECT_customer_type(0)
+
 you will get a json response like that:
 	
 
